@@ -55,7 +55,7 @@ python capture_input_image.py
 1. Go to [Google Account Security](https://myaccount.google.com/security)
 2. Search for "App password"
 3. Generate and copy your app password
-4. Update the environment file with your Gmail and app password
+4. Update the environment file (.env) with your Gmail and app password
 
 ### Step 8: Run Inference
 ```bash
@@ -67,11 +67,11 @@ python inference.py
 - Check that image paths are correct
 - Verify the format of your input images
 
-## License
+<!-- ## License
 [Add your license information here]
 
 ## Contributing
-[Add contribution guidelines if applicable]
+[Add contribution guidelines if applicable] -->
 
 ## Contact
-[Add your contact information or project maintainer details]
+[rjtdulal@gmail.com]
