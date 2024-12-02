@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ### Step 3: Prepare Image Pairs
 Generate a CSV file for sending image pairs to the Siamese model:
 ```bash
-python prepare_imagepair_csv.py --Face_Dataset
+python prepare_imagepair_csv.py --path Face_Dataset
 ```
 
 ### Step 4: Train the Model
