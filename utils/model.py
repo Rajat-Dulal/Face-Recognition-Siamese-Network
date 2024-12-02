@@ -7,6 +7,7 @@ class SiameseModel(nn.Module):
         self.model = InceptionResnetV1(pretrained='vggface2', classify=False).eval()
         del self.model.logits
 
+        #Comment the below 2 lines if for finetuning (else Transfer learning)
         for params in self.model.parameters():
             params.requires_grad = False
 
