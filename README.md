@@ -61,6 +61,9 @@ python capture_input_image.py
 ```bash
 python inference.py
 ```
+## Output
+![Output after inference](output.jpg)
+
 
 ## Troubleshooting
 - Ensure all dependencies are correctly installed
